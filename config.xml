@@ -3,7 +3,7 @@
 
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "uk.co.gwtrains.railtracks"
-        version     = "1.1.4"
+        version     = "1.1.0"
         versionCode = "10" >
 
     <!-- versionCode is optional and Android only -->
@@ -11,10 +11,10 @@
     <preference name="phonegap-version" value="3.6.3" />
 
 
-    <name>cURLs</name>
+    <name>Webforms</name>
 
     <description>
-         FGW Corporate URL Library
+         FGW Online Webforms
     </description>
 
     <author href="http://railtracks.gwtrains.co.uk" email="morgan@moledesign.biz">
