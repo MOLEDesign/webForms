@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "uk.co.gwtrains.railtracks"
+        version     = "1.1.4"
+        versionCode = "10" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <preference name="phonegap-version" value="3.6.3" />
+
+
+    <name>cURLs</name>
+
+    <description>
+         FGW Corporate URL Library
+    </description>
+
+    <author href="http://railtracks.gwtrains.co.uk" email="morgan@moledesign.biz">
+        Morgan Leecy
+    </author>
+
+    <icon src="icon.png" />
+
+    <access origin="*" browserOnly="true"/>
+    <access origin="http://railtracks.gwtrains.co.uk" browserOnly="true" subdomains="true"/>
+    <preference name="stay-in-webview" value="false" />
+
+    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+
+</widget>

@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>
+        App Library
+    </title>
+    <meta name="apple-mobile-web-app-status-bar-style" content="blue">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <script src="phonegap.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+
+
+    <p class="text-center" style="margin-top: 10px;">
+        <img src="icon.png" style="width:30%;">
+    </p>
+    <h3 class="text-center">
+        Welcome to cURLs
+    </h3>
+    <h4 id="show-once" class="text-center">cURLs is Loading..</h4>
+    <p id="slow-button" class="text-center" style="padding-top: 10px;">
+        <button type="button" class="btn btn-primary btn-large text-center" onclick="window.open('http://railtracks.gwtrains.co.uk/application-library', '_system', 'location=yes');">Reload cURLs Library</button>
+    </p>
+
+</div>
+
+</body>
+
+<script>
+
+    // redirect to google after 5 seconds
+    window.setTimeout(function() {
+        window.open('http://railtracks.gwtrains.co.uk/application-library', '_system', 'location=yes');
+    }, 2000);
+
+
+</script>
+</html>
