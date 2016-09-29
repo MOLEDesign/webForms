@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "uk.co.gwtrains.webforms"
+        id          = "uk.co.gwtrains.onlinefeedback"
         version     = "1.2.0"
         versionCode = "10" >
 
@@ -11,10 +11,10 @@
     <preference name="phonegap-version" value="3.6.3" />
 
 
-    <name>Webforms</name>
+    <name>Online feedback</name>
 
     <description>
-         FGW Online Webforms
+         GWR Online feedback
     </description>
 
     <author href="http://railtracks.gwtrains.co.uk" email="morgan@moledesign.biz">
